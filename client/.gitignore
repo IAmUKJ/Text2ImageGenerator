@@ -12,6 +12,30 @@ dist
 dist-ssr
 *.local
 
+# Node
+# Ignore node_modules in client and server
+/client/node_modules/
+/server/node_modules/
+
+npm-debug.log
+yarn-error.log
+
+# Env
+# Ignore server env
+/server/.env
+
+# Ignore client env
+/client/.env
+
+
+# Build
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
